@@ -25,12 +25,48 @@
     <![endif]-->
 
 </head>
+<style>
+    body{
+        background-color: rgba(15,121,134,1);
+        color:white;
+    }
+    h1{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    div h4{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    
+    .data-format{
+        padding:0;
+        width:50px;
+        height:60px;
+    }
+    .tit{
+        font-weight:bold;
+        margin-top: 1%;
+
+        font-family: sans-serif;
+        font-size: 2.5em;
+    }
+    .col-container{
+        background-color:rgba(12,130,144,1);
+    }
+    .height-navbar{
+        height: 8%;
+        color:white;
+    }
+    
+</style>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top height-navbar" role="navigation ">
+        
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -39,10 +75,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Radar da inovação</a>
+                <a class="navbar-brand tit" href="#">Radar da Inovação</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div style='float:right; margin-top:1%;font-size:1.2em' class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="#">Sobre</a>
@@ -59,12 +95,11 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+        
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
+    <div  class="container col-container">
 
         <!-- Page Heading -->
         <div class="row">
@@ -77,16 +112,16 @@
 
         <!-- Project One -->
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 col-xs-12" >
                 <a href="#">
-                    <img class="img-rounded" src="images/feiragamer.jpg" alt="" width="100%">
+                    <img class="img-rounded" src="images/feiragamer.jpg" alt=""  width="100%">
                 </a>
             </div>
-            <div class="col-md-1 date-info">
-                <h3>16</h3>
-                <p>dezembro</p>
+            <div class="col-md-1 date-info col-xs-1 ">
+                <span style='font-weight:bolder;font-size:1.7em'>16</span><br>
+                <span style='font-size:1.2em'>DEZ</span><br>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-11 ">
                 <h4>Feira Gamer</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem quos perspiciatis atque eveniet unde.</p>
                 <a class="btn btn-primary" href="#">Veja mais <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -98,16 +133,16 @@
 
        <!-- Project One -->
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5  col-xs-12">
                 <a href="#">
                     <img class="img-rounded" src="images/feiragamer.jpg" alt="" width="100%">
                 </a>
             </div>
-            <div class="col-md-1 date-info">
+            <div class="col-md-1 col-xs-6 date-info">
                 <h3>16</h3>
-                <p class="mes">dezembro</p>
+                <p class="mes">DEZ</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5 col-xs-6">
                 <h4>Feira Gamer</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem quos perspiciatis atque eveniet unde.</p>
                 <a class="btn btn-primary" href="#">Veja mais <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -126,7 +161,7 @@
             </div>
             <div class="col-md-1 date-info">
                 <h3>16</h3>
-                <p>dezembro</p>
+                <p>DEZ</p>
             </div>
             <div class="col-md-6">
                 <h4>Feira Gamer</h4>
